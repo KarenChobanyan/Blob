@@ -1,0 +1,66 @@
+.header {
+    width: 80%;
+    height: 50px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#info {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 150px;
+    margin: 25px auto;
+}
+
+.infoText {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(93, 38, 245);
+}
+
+#infoSheet {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    height: 50pxpx;
+}
+
+.infoItem {
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid blue;
+    border-radius: 25px;
+}
+
+.infoItem:hover {
+    background-color: rgb(85, 68, 236);
+    color: azure;
+}
+
+.infoItem:focus {
+    background-color: rgb(34, 247, 122);
+}
+
+#container {
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerItem {
+    /* height: 25px; */
+    font-size: 20px;
+    font-family: monospace;
+}
